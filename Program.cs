@@ -19,7 +19,7 @@
 
                 if (number != 9999)
                 {
-                    sum = sum + number; ;
+                    sum = sum + number;
                 }
                 else
                 {
@@ -29,7 +29,7 @@
 
             average = sum / i;
 
-            Console.WriteLine(i);
+            Console.WriteLine("\n" + "Среднее арифметическое число - " + average);
         }
     }
 }
